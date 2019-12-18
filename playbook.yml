@@ -1,6 +1,6 @@
 ---
 
-- host: all
+- host: localhost
   task:
     - name: instalar vim
       apt: name=vim state=present
