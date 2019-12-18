@@ -1,0 +1,9 @@
+---
+
+- host: all
+  task:
+    - name: instalar vim
+      apt: name=vim state=present
+      become: true 
+    - name: saluda 
+      shell: echo hola mundo	
